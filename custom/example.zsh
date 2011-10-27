@@ -3,3 +3,6 @@
 #
 # brainstormr=/Users/robbyrussell/Projects/development/planetargon/brainstormr
 #
+
+alias ec="emacsclient -t"
+alias e="emacs -nw"
