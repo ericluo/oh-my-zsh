@@ -15,6 +15,7 @@ export LC_CTYPE=zh_CN.UTF-8
 
 export TERM=xterm-256color
 
+export EDITOR=vim
 # rvm-install added line:
 if [[ -s /home/eric/.rvm/scripts/rvm ]] ; then source /home/eric/.rvm/scripts/rvm ; fi
 
@@ -22,5 +23,4 @@ if [[ -s /home/eric/.rvm/scripts/rvm ]] ; then source /home/eric/.rvm/scripts/rv
 # rvm-install added line:
 if [[ -s $HOME/.profile ]] ; then source $HOME/.profile ; fi
 
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$PATH:$HOME/.rvm/bin:$HOME/bin # Add RVM to PATH for scripting

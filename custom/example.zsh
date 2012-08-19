@@ -6,4 +6,3 @@
 
 alias ec="emacsclient -t"
 alias e="emacs -nw"
-export EDITOR="emacsclient -t"
