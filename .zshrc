@@ -19,8 +19,3 @@ plugins=(ruby rails3 rake gem git rvm vi-mode bundler)
 
 # rvm-install added line:
 if [[ -s /home/eric/.rvm/scripts/rvm ]] ; then source /home/eric/.rvm/scripts/rvm ; fi
-
-
-# rvm-install added line:
-if [[ -s $HOME/.profile ]] ; then source $HOME/.profile ; fi
-
